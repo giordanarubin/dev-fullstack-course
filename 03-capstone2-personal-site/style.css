@@ -1,0 +1,17 @@
+body {
+  font-family: "Atkinson Hyperlegible Mono", serif;
+}
+#header {
+  background-color: #413153;
+}
+#heroes {
+
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}

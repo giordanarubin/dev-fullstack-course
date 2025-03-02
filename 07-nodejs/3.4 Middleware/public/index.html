@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Band Name Generator</title>
+</head>
+
+<body>
+  <h1>Band Name Generator</h1>
+  <form action="/submit" method="POST"><!-- o formulario faz post request, ou seja, envia os dados digitados para o servidor. "/submit" é a rota que será feita para alcançar o arquivo e fazer a requisição -->
+    <label for="street">Street Name:</label>
+    <input type="text" name="street" required> <!-- required: atributo obrigatorio-->
+    <label for="pet">Pet Name:</label>
+    <input type="text" name="pet" required>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+
+</html>
